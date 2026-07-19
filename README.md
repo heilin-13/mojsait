@@ -144,13 +144,12 @@
   </style>
 </head>
 <body>
-
   <div class="menu">
     <div class="logo">✦ Ильвина</div>
     <div class="nav-links">
-      <a href="https://cutt.ly/uyrZBNPg">Главная</a>
-      <a href="https://cutt.ly/uyrZBNPg/about.html">Обо мне</a>
-      <a href="https://cutt.ly/uyrZBNPg/otzyvy.html">Отзывы</a>
+      <a href="https://cutt.ly/SyrCrH3K">Главная</a>
+      <a href="https://cutt.ly/SyrCrH3K/about.html">Обо мне</a>
+      <a href="https://cutt.ly/SyrCrH3K/otzyvy.html">Отзывы</a>
     </div>
   </div>
 
@@ -160,7 +159,7 @@
       <p>Гадаю уже 2 года. Помогаю найти ответы на важные вопросы через мудрость карт.</p>
       <div class="btn-group">
         <a href="https://t.me/ilvinana13" class="btn btn-primary">Написать в Telegram</a>
-        <a href="https://cutt.ly/uyrZBNPg/about.html" class="btn btn-secondary">Узнать больше</a>
+        <a href="https://cutt.ly/SyrCrH3K/about.html" class="btn btn-secondary">Узнать больше</a>
       </div>
     </div>
   </section>
@@ -190,6 +189,5 @@
   <div class="footer">
     <p>© 2026 Ильвина. Сделано с душой.</p>
   </div>
-
 </body>
 </html>
