@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Обо мне — Таро Ильвины</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0a0a0a;
+      color: #fff;
+      padding-top: 80px;
+    }
+    .menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(10, 10, 10, 0.8);
+      backdrop-filter: blur(10px);
+      z-index: 100;
+    }
+    .logo { font-size: 24px; font-weight: 700; color: #fff; }
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 30px;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .nav-links a:hover { color: #a855f7; }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      margin-bottom: 30px;
+      background: linear-gradient(to right, #a855f7, #d946ef);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .text { font-size: 19px; line-height: 1.9; color: #cbd5e1; }
+    .text strong { color: #a855f7; }
+    .text ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 20px 0;
+    }
+    .text ul li {
+      margin-bottom: 15px;
+      padding-left: 25px;
+      position: relative;
+    }
+    .text ul li::before {
+      content: "—";
+      color: #a855f7;
+      position: absolute;
+      left: 0;
+    }
+    @media (max-width: 768px) {
+      .menu { padding: 15px 20px; }
+      .nav-links a { margin-left: 15px; font-size: 14px; }
+      h1 { font-size: 36px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <div class="logo">✦ Ильвина</div>
+    <div class="nav-links">
+      <a href="https://cutt.ly/uyrZBNPg">Главная</a>
+      <a href="https://cutt.ly/uyrZBNPg/about.html">Обо мне</a>
+      <a href="https://cutt.ly/uyrZBNPg/otzyvy.html">Отзывы</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>Обо мне</h1>
+    <div class="text">
+      <p><strong>Мне 17 лет</strong>, и я занимаюсь раскладами на Таро Уэйта уже больше 2 лет.</p>
+      <p>Я работаю двумя способами:</p>
+      <ul>
+        <li><strong>Самостоятельно</strong> — трактую их по классическим значениям.</li>
+        <li><strong>Через DeepSeek</strong> — описываю выпавшие карты и ситуацию, а нейросеть помогает собрать целостную картину.</li>
+      </ul>
+      <p>Оплату беру <strong>после</strong> разбора — вам не нужно платить, пока вы не получили ответ.</p>
+    </div>
+  </div>
+</body>
+</html>
